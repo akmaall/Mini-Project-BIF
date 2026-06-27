@@ -53,9 +53,9 @@ Mini project ini bertujuan untuk membangun pipeline tersebut secara mandiri meng
 ### 2.3 Alasan Pemilihan
 
 Dataset dipilih berdasarkan tiga kriteria: 
-(1) ukuran kecil-sedang (~16–20 kb per sekuens) agar unduhan cepat dan analisis efisien 
-(2) tersedia bebas di NCBI RefSeq sehingga dapat diakses secara programatik 
-(3) mencakup berbagai kelas vertebrata yang diketahui memiliki variasi GC Content mitokondria yang bermakna, sehingga analisis perbandingan antar spesies menjadi informatif dan relevan secara biologis.
+1. Ukuran kecil-sedang (~16–20 kb per sekuens) agar unduhan cepat dan analisis efisien
+2. Tersedia bebas di NCBI RefSeq sehingga dapat diakses secara programatik
+3. Mencakup berbagai kelas vertebrata yang diketahui memiliki variasi GC Content mitokondria yang bermakna, sehingga analisis perbandingan antar spesies menjadi informatif dan relevan secara biologis.
 
 ---
 
