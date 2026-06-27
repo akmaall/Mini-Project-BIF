@@ -36,24 +36,6 @@ project/
 
 ---
 
-## Instalasi
-
-```bash
-# 1. Clone repositori
-git clone <URL_GITHUB_ANDA>
-cd project
-
-# 2. (Opsional) Buat virtual environment
-python -m venv .venv
-source .venv/bin/activate        # Linux/Mac
-.venv\Scripts\activate           # Windows
-
-# 3. Pasang dependensi
-pip install -r requirements.txt
-```
-
----
-
 ## Cara Menjalankan
 
 ```bash
@@ -83,5 +65,7 @@ Program akan menghasilkan:
 ## Kontak
 
 Nama  : Akmal Fauzan Nurantho 
+
 NIM   : G0401241060
+
 Prodi : Bioinformatika, IPB University
