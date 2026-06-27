@@ -4,11 +4,13 @@
 
 ---
 
-**Nama**      : Akmal Fauzan Nutnahto
-**NIM**       : G0401240160 
-**Program Studi** : Bioinformatika  
-**Institusi** : Institut Pertanian Bogor (IPB University)  
-**Tanggal**   : 27 Juni 2026
+**Nama**           : Akmal Fauzan Nutnahto
+**NIM**            : G0401240160 
+**Dosen**          : Dr. Toto Haryanto S.Kom., M.Si.
+**Program Studi**  : Bioinformatika
+**Fakultas**       : Matematika dan Ilmu Pengetahuan Alam
+**Institusi**      : Institut Pertanian Bogor (IPB University)  
+**Tanggal**        : 27 Juni 2026
 
 ---
 
@@ -48,7 +50,10 @@ Mini project ini bertujuan untuk membangun pipeline tersebut secara mandiri meng
 
 ### 2.3 Alasan Pemilihan
 
-Dataset dipilih berdasarkan tiga kriteria: (1) ukuran kecil-sedang (~16–20 kb per sekuens) agar unduhan cepat dan analisis efisien; (2) tersedia bebas di NCBI RefSeq sehingga dapat diakses secara programatik; dan (3) mencakup berbagai kelas vertebrata yang diketahui memiliki variasi GC Content mitokondria yang bermakna, sehingga analisis perbandingan antar spesies menjadi informatif dan relevan secara biologis.
+Dataset dipilih berdasarkan tiga kriteria: 
+(1) ukuran kecil-sedang (~16–20 kb per sekuens) agar unduhan cepat dan analisis efisien 
+(2) tersedia bebas di NCBI RefSeq sehingga dapat diakses secara programatik 
+(3) mencakup berbagai kelas vertebrata yang diketahui memiliki variasi GC Content mitokondria yang bermakna, sehingga analisis perbandingan antar spesies menjadi informatif dan relevan secara biologis.
 
 ---
 
@@ -138,20 +143,3 @@ Di antara mamalia, perbedaan GC Content relatif kecil (43–45%), mencerminkan k
 Penggunaan Dictionary untuk frekuensi nukleotida terbukti efisien karena akses nilai setiap basa dilakukan dalam O(1), sementara List memudahkan pengurutan dan pengirisan data hasil analisis.
 
 ---
-
-## 6. Kesimpulan
-
-Mini project ini berhasil membangun pipeline analisis GC Content sederhana yang memenuhi seluruh ketentuan tugas:
-
-1. Data berhasil diunduh secara otomatis dari NCBI menggunakan Biopython Entrez.
-2. Seluruh record sekuens disimpan dalam **List** sebagai struktur data utama.
-3. Frekuensi nukleotida dihitung menggunakan **Dictionary** dengan efisiensi O(1) per akses.
-4. GC Content dihitung dan sekuens diurutkan secara *descending* menggunakan **Sorting** O(n log n).
-5. Top 3 sekuens ditampilkan di konsol dan divisualisasikan dengan matplotlib.
-6. Hasil analisis diekspor ke **CSV** melalui pandas **DataFrame**.
-
-Implementasi ini membuktikan bahwa struktur data fundamental (List dan Dictionary) yang dipelajari dalam BIF1223 memiliki peran nyata dalam membangun pipeline bioinformatika yang fungsional dan efisien.
-
----
-
-*Laporan ini merupakan bagian dari Mini Project Mata Kuliah Struktur Data Bioinformatika (BIF1223), IPB University, Semester Genap 2025/2026.*
