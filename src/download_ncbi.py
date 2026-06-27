@@ -5,8 +5,7 @@ dan menyimpannya sebagai file FASTA di direktori data/.
 Dataset : Mitokondria lengkap (complete genome) dari 10 spesies vertebrata
 Sumber  : NCBI RefSeq Nucleotide
 
-Catatan : Jika akses NCBI tidak tersedia (misal: jaringan dibatasi),
-          skrip ini akan secara otomatis membuat data sintetis yang
+Catatan : Jika akses NCBI tidak tersedia, skrip ini akan secara otomatis membuat data sintetis yang
           mencerminkan komposisi nukleotida nyata berdasarkan literatur.
 """
 
@@ -23,8 +22,6 @@ Entrez.tool  = "MiniProjectBIF1223"
 
 # Daftar Accession Number
 # 10 mitokondria lengkap dari berbagai kelas vertebrata.
-# Dipilih karena ukurannya kecil-sedang (~16–20 kb), mudah diakses, dan
-# memiliki variasi GC Content yang bermakna antar spesies.
 ACCESSIONS: list[str] = [
     "NC_012920",   # Homo sapiens            – manusia
     "NC_005089",   # Mus musculus            – tikus rumah
