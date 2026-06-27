@@ -36,9 +36,8 @@ def load_fasta(filepath: Path) -> list[dict]:
     Membaca file FASTA dan mengembalikan List of dict.
     Setiap elemen berisi: id, description, dan sequence (string).
 
-    Struktur Data: LIST
-      → digunakan untuk menampung seluruh record sekuens
-        sehingga bisa diiterasi, diurutkan, dan diiris (slice).
+    Struktur Data: LIST befungsi untuk menampung seluruh record sekuens
+    sehingga bisa diiterasi, diurutkan, dan diiris (slice).
     """
     records: list[dict] = []   # ← LIST utama
 
@@ -57,9 +56,8 @@ def nucleotide_frequency(sequence: str) -> dict[str, int]:
     """
     Menghitung frekuensi A, T, G, C dari sebuah sekuens.
 
-    Struktur Data: DICTIONARY
-      → key = simbol nukleotida, value = jumlah kemunculan.
-        Cocok untuk pencarian O(1) dan representasi mapping.
+    Struktur Data: DICTIONARY berfungsi sebagai key = simbol nukleotida, value = jumlah kemunculan.
+    Cocok untuk pencarian O(1) dan representasi mapping.
     """
     freq: dict[str, int] = {"A": 0, "T": 0, "G": 0, "C": 0, "N": 0}
     for base in sequence:
@@ -84,8 +82,7 @@ def sort_by_gc(analyzed: list[dict]) -> list[dict]:
     """
     Mengurutkan list hasil analisis berdasarkan gc_content secara descending.
 
-    Struktur Data: SORTING (built-in sort dengan key function)
-      → Kompleksitas O(n log n) – Python Timsort.
+    Struktur Data: SORTING (built-in sort dengan key function) untuk Kompleksitas O(n log n) – Python Timsort.
     """
     return sorted(analyzed, key=lambda x: x["gc_content"], reverse=True)
 
@@ -240,8 +237,7 @@ def save_csv(sorted_records: list[dict], output_path: Path) -> None:
     """
     Mengonversi List of dict ke pandas DataFrame lalu menyimpan ke CSV.
 
-    Struktur Data: DATAFRAME
-      → Representasi tabular dua dimensi; setiap kolom merupakan
+    Struktur Data: DATAFRAME untuk Representasi tabular dua dimensi, setiap kolom merupakan
         Series yang efisien untuk operasi vektorisasi.
     """
     columns = ["rank", "id", "label", "length",
