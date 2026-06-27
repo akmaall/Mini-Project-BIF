@@ -4,13 +4,15 @@
 
 ---
 
-**Nama**           : Akmal Fauzan Nutnahto
-**NIM**            : G0401240160 
-**Dosen**          : Dr. Toto Haryanto S.Kom., M.Si.
-**Program Studi**  : Bioinformatika
-**Fakultas**       : Matematika dan Ilmu Pengetahuan Alam
-**Institusi**      : Institut Pertanian Bogor (IPB University)  
-**Tanggal**        : 27 Juni 2026
+|Item|Detail|
+|---|---|
+|Nama|Akmal Fauzan Nurantho|
+|NIM|G0401240160| 
+|Dosen|Dr. Toto Haryanto S.Kom., M.Si.|
+|Program Studi|Bioinformatika|
+|Fakultas|Matematika dan Ilmu Pengetahuan Alam|
+|Institusi|Institut Pertanian Bogor (IPB University)|  
+|Tanggal|27 Juni 2026|
 
 ---
 
